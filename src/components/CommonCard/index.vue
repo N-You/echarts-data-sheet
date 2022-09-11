@@ -26,6 +26,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.common-card
+  width:100%
+  height:100%
 .title
     font-size: 12rem
     color: #999
