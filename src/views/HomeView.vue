@@ -2,8 +2,8 @@
   <div class="home">
     <TopView/>
     <SalesView/>
-    <MapView/>
     <BottomView/>
+    <MapView/>
   </div>
 </template>
 
