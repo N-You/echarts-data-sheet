@@ -287,59 +287,86 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-.bottom-view
-  display: flex
-  margin-top: 20rem
-  .view
-    flex: 1
-    width: 50%
-    box-sizing: border-box
-    &:first-child
-      padding: 0 10rem 0 0
-    &:last-child
-      padding: 0 0 0 10rem
-    .title-wrapper
-      display: flex
-      align-items: center
-      height: 60rem
-      box-sizing: border-box
-      border-bottom: 1rem solid #eee
-      font-size: 14rem
-      font-weight: 500
-      padding: 0 0 0 20rem
-      .radio-wrapper
-        flex: 1
-        display: flex
-        justify-content: flex-end
-        padding-right: 20rem
-    .chart-wrapper
-      display: flex
-      flex-direction: column
-      height: 452rem
-      .chart-inner
-        display: flex
-        padding:0 10rem
-        margin-top: 20rem
-        .chart
-          flex: 1
-          padding:0 10rem
-          .chart-title
-            color: #999
-            font-size: 14rem
-          .chart-data
-            font-size: 22rem
-            color: #333
-            font-weight: 500
-            letter-spacing: 2rem
-          .echarts
-            height: 50rem
-      .table-wrapper
-        flex: 1
-        margin-top: 20rem
-        padding: 0 20rem 20rem
-        .el-pagination
-          display: flex
-          justify-content: flex-end
-          margin-top: 15rem
+<style lang="scss" scoped>
+  .bottom-view {
+    display: flex;
+    margin-top: 20px;
+
+    .view {
+      flex: 1;
+      width: 50%;
+      box-sizing: border-box;
+
+      &:first-child {
+        padding: 0 10px 0 0;
+      }
+
+      &:last-child {
+        padding: 0 0 0 10px;
+      }
+
+      .title-wrapper {
+        display: flex;
+        align-items: center;
+        height: 60px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #eee;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0 0 0 20px;
+
+        .radio-wrapper {
+          flex: 1;
+          display: flex;
+          justify-content: flex-end;
+          padding-right: 20px;
+        }
+      }
+
+      .chart-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 452px;
+
+        .chart-inner {
+          display: flex;
+          padding: 0 10px;
+          margin-top: 20px;
+
+          .chart {
+            flex: 1;
+            padding: 0 10px;
+
+            .chart-title {
+              color: #999;
+              font-size: 14px;
+            }
+
+            .chart-data {
+              font-size: 22px;
+              color: #333;
+              font-weight: 500;
+              letter-spacing: 2px;
+            }
+
+            .echarts {
+              height: 50px;
+            }
+          }
+        }
+
+        .table-wrapper {
+          flex: 1;
+          margin-top: 20px;
+          padding: 0 20px 20px;
+
+          .el-pagination {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
 </style>

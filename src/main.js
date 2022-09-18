@@ -5,6 +5,7 @@ import '@/styles/index.sass'
 import ElementUI from 'element-ui'
 import * as ECharts from 'echarts'
 import 'element-ui/lib/theme-chalk/index.css'
+// import './plugins/vcharts'
 
 import '@/utils/requireComponent'
 
